@@ -1,0 +1,5 @@
+.calendario-semana__mes {
+  color: var(--azul-mes);
+  font-size: 1.765em;
+  margin: 0.075em 0 0.475em;
+}

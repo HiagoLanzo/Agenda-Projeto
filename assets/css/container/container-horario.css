@@ -1,0 +1,13 @@
+.container-horario {
+  height: 82%;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  padding: 0.75em;
+}
+
+@media screen and (min-width: 1024px) {
+  .container-horario {
+    scrollbar-color: var(--cinza-background-container-principal) var(--cinza-background);
+    scrollbar-width: thin;
+  }
+}

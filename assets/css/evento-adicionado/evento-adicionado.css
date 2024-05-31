@@ -1,0 +1,19 @@
+.evento-adicionado {
+  background-color: var(--azul-chamada);
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0.15em 0.5em 0.15em 0.35em;
+  padding: 0.375em;
+}
+
+
+@media screen and (min-width: 1024px) {
+  .evento-adicionado {
+    width: 60%;
+    padding: 0.625em;
+
+  }
+}
+

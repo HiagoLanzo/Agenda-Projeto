@@ -1,0 +1,4 @@
+.container-principal {
+  background-color: var(--cinza-background-container-principal);
+  display: flex;
+}

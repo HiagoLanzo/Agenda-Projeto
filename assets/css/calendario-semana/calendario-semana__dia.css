@@ -1,0 +1,9 @@
+.calendario-semana__dia {
+  display: grid;
+  grid-template-columns:  8.5% repeat(7, 1fr);
+  grid-template-rows: 2.35em;
+  padding: 0.625em;
+}
+
+
+

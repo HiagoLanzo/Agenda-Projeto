@@ -1,0 +1,57 @@
+.calendario-semana__dia-item {
+  align-items: center;
+  border-right: 1px solid  #000000;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.calendario-semana__dia-item:nth-child(1) {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.calendario-semana__dia-item:nth-child(2) {
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.calendario-semana__dia-item:nth-child(3) {
+  grid-column: 4;
+  grid-row: 1;
+}
+
+.calendario-semana__dia-item:nth-child(4) {
+  grid-column: 5;
+  grid-row: 1;
+}
+
+.calendario-semana__dia-item:nth-child(5) {
+  grid-column: 6;
+  grid-row: 1;
+}
+
+.calendario-semana__dia-item:nth-child(6) {
+  grid-column: 7;
+  grid-row: 1;
+}
+
+.calendario-semana__dia-item:nth-child(7) {
+  border-right: none;
+  grid-column: 8;
+  grid-row: 1;
+}
+
+.calendario-semana__dia-item h2 {
+  font-size: 1.45em;
+  margin: 0;
+  opacity: var(--opacidade-padrao);
+  text-align: center;
+}
+
+.calendario-semana__dia-item div {
+  font-size: 1.45em;
+  font-weight: bold;
+  text-align: center;
+}

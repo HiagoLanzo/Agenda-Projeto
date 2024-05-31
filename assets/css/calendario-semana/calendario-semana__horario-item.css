@@ -1,0 +1,124 @@
+.calendario-semana__horario-item {
+  border-bottom: 1px solid #000000;
+  opacity: var(--opacidade-padrao);
+}
+
+.calendario-semana__horario-item:nth-child(1) {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.calendario-semana__horario-item:nth-child(2) {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.calendario-semana__horario-item:nth-child(3) {
+  grid-column: 1;
+  grid-row: 3;
+}
+
+.calendario-semana__horario-item:nth-child(4) {
+  grid-column: 1;
+  grid-row: 4;
+}
+
+.calendario-semana__horario-item:nth-child(5) {
+  grid-column: 1;
+  grid-row: 5;
+}
+
+.calendario-semana__horario-item:nth-child(6) {
+  grid-column: 1;
+  grid-row: 6;
+}
+
+.calendario-semana__horario-item:nth-child(7) {
+  grid-column: 1;
+  grid-row: 7;
+}
+
+.calendario-semana__horario-item:nth-child(8) {
+  grid-column: 1;
+  grid-row: 8;
+}
+
+.calendario-semana__horario-item:nth-child(9) {
+  grid-column: 1;
+  grid-row: 9;
+}
+
+.calendario-semana__horario-item:nth-child(10) {
+  grid-column: 1;
+  grid-row: 10;
+}
+
+.calendario-semana__horario-item:nth-child(11) {
+  grid-column: 1;
+  grid-row: 11;
+}
+
+.calendario-semana__horario-item:nth-child(12) {
+  grid-column: 1;
+  grid-row: 12;
+}
+
+.calendario-semana__horario-item:nth-child(13) {
+  grid-column: 1;
+  grid-row: 13;
+}
+
+.calendario-semana__horario-item:nth-child(14) {
+  grid-column: 1;
+  grid-row: 14;
+}
+
+.calendario-semana__horario-item:nth-child(15) {
+  grid-column: 1;
+  grid-row: 15;
+}
+
+.calendario-semana__horario-item:nth-child(16) {
+  grid-column: 1;
+  grid-row: 16;
+}
+
+.calendario-semana__horario-item:nth-child(17) {
+  grid-column: 1;
+  grid-row: 17;
+}
+
+.calendario-semana__horario-item:nth-child(18) {
+  grid-column: 1;
+  grid-row: 18;
+}
+
+.calendario-semana__horario-item:nth-child(19) {
+  grid-column: 1;
+  grid-row: 19;
+}
+
+.calendario-semana__horario-item:nth-child(20) {
+  grid-column: 1;
+  grid-row: 20;
+}
+
+.calendario-semana__horario-item:nth-child(21) {
+  grid-column: 1;
+  grid-row: 21;
+}
+
+.calendario-semana__horario-item:nth-child(22) {
+  grid-column: 1;
+  grid-row: 22;
+}
+
+.calendario-semana__horario-item:nth-child(23) {
+  grid-column: 1;
+  grid-row: 23;
+}
+
+.calendario-semana__horario-item:nth-child(24) {
+  grid-column: 1;
+  grid-row: 24;
+}

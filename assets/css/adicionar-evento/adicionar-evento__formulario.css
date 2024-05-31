@@ -1,0 +1,15 @@
+.adicionar-evento__formulario {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 1024px) {
+  .adicionar-evento__formulario {
+    background-color: var(--cinza-background-container-principal);
+    border-radius: var(--borda-caixa);
+    margin-left: 0.765em;
+    padding: 0.425em;
+  }
+}

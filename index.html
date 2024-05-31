@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agenda ViteTech</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/normalize.css" />
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho.css" />
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho__logo.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/css/cabecalho/cabecalho__titulo.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="./assets/css/container/container-principal.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/adicionar-evento/adicionar-evento.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/adicionar-evento/adicionar-evento__formulario.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/adicionar-evento/adicionar-evento__formulario-titulo.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/adicionar-evento/adicionar-evento__formulario-input.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/adicionar-evento/adicionar-evento__formulario-icone.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/adicionar-evento/adicionar-evento__formulario-botao.css"
+    />
+    <link rel="stylesheet" href="./assets/css/container/container-semana.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/css/container/container-horario.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/calendario-semana/calendario.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/calendario-semana/calendario-semana__mes.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/calendario-semana/calendario-semana__dia.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/calendario-semana/calendario-semana__dia-item.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/calendario-semana/calendario-semana__dia-numero.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/calendario-semana/calendario-semana__horario.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/calendario-semana/calendario-semana__horario-item.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/evento-adicionado/evento-adicionado.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/evento-adicionado/evento-adicionado__titulo.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/evento-adicionado/evento-adicionado__horario.css"
+    />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img class="cabecalho__logo" src="./assets/img/ViteTech-logo.png" />
+      <h1 class="cabecalho__titulo">Agenda ViteTech</h1>
+    </header>
+    <main class="container-principal">
+      <section class="adicionar-evento">
+        <form id="formulario" class="adicionar-evento__formulario">
+          <h2 class="adicionar-evento__formulario-titulo">Adicionar evento</h2>
+          <input
+            type="text"
+            class="adicionar-evento__formulario-input"
+            placeholder="Nome do evento"
+            required
+          />
+          <input
+            type="datetime-local"
+            class="adicionar-evento__formulario-input"
+            required
+          />
+          <button class="adicionar-evento__formulario-botao">
+            adicionar evento
+            <img
+              class="adicionar-evento__formulario-icone"
+              src="https://img.icons8.com/ios/50/000000/ok--v1.png"
+            />
+          </button>
+        </form>
+      </section>
+      <section class="calendario">
+        <div class="container-semana">
+          <h2 class="calendario-semana__mes" id="dataMes"></h2>
+          <ul class="calendario-semana__dia">
+            <li class="calendario-semana__dia-item">
+              <h2>Dom</h2>
+              <div id="Domingo"></div>
+            </li>
+            <li class="calendario-semana__dia-item">
+              <h2>Seg</h2>
+              <div id="Segunda"></div>
+            </li>
+            <li class="calendario-semana__dia-item">
+              <h2>Ter</h2>
+              <div id="Terca"></div>
+            </li>
+            <li class="calendario-semana__dia-item">
+              <h2>Qua</h2>
+              <div id="Quarta"></div>
+            </li>
+            <li class="calendario-semana__dia-item">
+              <h2>Qui</h2>
+              <div id="Quinta"></div>
+            </li>
+            <li class="calendario-semana__dia-item">
+              <h2>Sex</h2>
+              <div id="Sexta"></div>
+            </li>
+            <li class="calendario-semana__dia-item">
+              <h2>Sáb</h2>
+              <div id="Sabado"></div>
+            </li>
+          </ul>
+        </div>
+        <div class="container-horario">
+          <ul class="calendario-semana__horario">
+            <li class="calendario-semana__horario-item" id="00:00">00:00</li>
+            <li class="calendario-semana__horario-item" id="01:00">01:00</li>
+            <li class="calendario-semana__horario-item" id="02:00">02:00</li>
+            <li class="calendario-semana__horario-item" id="03:00">03:00</li>
+            <li class="calendario-semana__horario-item" id="04:00">04:00</li>
+            <li class="calendario-semana__horario-item" id="05:00">05:00</li>
+            <li class="calendario-semana__horario-item" id="06:00">06:00</li>
+            <li class="calendario-semana__horario-item" id="07:00">07:00</li>
+            <li class="calendario-semana__horario-item" id="08:00">08:00</li>
+            <li class="calendario-semana__horario-item" id="09:00">09:00</li>
+            <li class="calendario-semana__horario-item" id="10:00">10:00</li>
+            <li class="calendario-semana__horario-item" id="11:00">11:00</li>
+            <li class="calendario-semana__horario-item" id="12:00">12:00</li>
+            <li class="calendario-semana__horario-item" id="13:00">13:00</li>
+            <li class="calendario-semana__horario-item" id="14:00">14:00</li>
+            <li class="calendario-semana__horario-item" id="15:00">15:00</li>
+            <li class="calendario-semana__horario-item" id="16:00">16:00</li>
+            <li class="calendario-semana__horario-item" id="17:00">17:00</li>
+            <li class="calendario-semana__horario-item" id="18:00">18:00</li>
+            <li class="calendario-semana__horario-item" id="19:00">19:00</li>
+            <li class="calendario-semana__horario-item" id="20:00">20:00</li>
+            <li class="calendario-semana__horario-item" id="21:00">21:00</li>
+            <li class="calendario-semana__horario-item" id="22:00">22:00</li>
+            <li class="calendario-semana__horario-item" id="23:00">23:00</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="./js/index.js"></script>
+  </body>
+</html>

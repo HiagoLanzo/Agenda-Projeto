@@ -1,0 +1,6 @@
+.calendario-semana__horario {
+  display: grid;
+  grid-template-columns: 8.5% repeat(7, 1fr);
+  grid-template-rows: repeat(24, 4em);
+  height: 100%;
+}

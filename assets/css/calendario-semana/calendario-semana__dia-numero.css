@@ -1,0 +1,7 @@
+.calendario-semana__dia-numero {
+  background-color: var(--azul-chamada);
+  border: 7px solid var(--azul-chamada);
+  border-radius: 200px;
+  text-align: center;
+  width: fit-content;
+}

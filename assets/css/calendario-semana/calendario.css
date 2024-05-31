@@ -1,0 +1,17 @@
+.calendario {
+  background-color: var(--cinza-background);
+  border-radius: var(--borda-caixa);
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 7em);
+  margin: 0.95em 0.45em;
+  padding: var(--padding-alinhamento-calendario);
+  width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+  .calendario {
+    width: 75%;
+    margin: 0.95em 0.75em 2.75em;
+  }
+}

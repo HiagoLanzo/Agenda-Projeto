@@ -1,0 +1,8 @@
+.adicionar-evento__formulario-botao {
+  background-color: var(--azul-chamada);
+  border-radius: var(--borda-caixa);
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 10em;
+}

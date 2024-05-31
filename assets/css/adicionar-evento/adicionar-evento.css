@@ -1,0 +1,15 @@
+.adicionar-evento {
+  background-color: var(--cinza-background);
+  border-radius: var(--borda-caixa);
+  display: none;
+  height: 9em;
+  margin: 0.95em 0 0.95em 1.25em;
+  padding: var(--padding-alinhamento-calendario);
+  width: 15%;
+}
+
+@media screen and (min-width: 1024px) {
+  .adicionar-evento {
+    display: block;
+  }
+}
